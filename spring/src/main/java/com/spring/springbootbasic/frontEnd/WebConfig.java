@@ -13,7 +13,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
-                        .allowedOrigins("https://spring-next-app1.onrender.com") // React/Next.js URL
+                        .allowedOrigins("https://spring-next-app1.onrender.com/") // React/Next.js URL
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
             }
         };
